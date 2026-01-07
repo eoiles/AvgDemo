@@ -1,0 +1,36 @@
+# =============== Unity generated ===============
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Unity cache / user settings
+[Uu]ser[Ss]ettings/
+
+# IDE / OS
+.vscode/
+.vs/
+.idea/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Ll]og/
+
+# =============== Unity addressables / artifacts (optional) ===============
+# Uncomment if you generate these locally and don't want them tracked
+# [Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+# [Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.json
