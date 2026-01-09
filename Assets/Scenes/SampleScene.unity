@@ -349,6 +349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Panel1
       objectReference: {fileID: 0}
+    - target: {fileID: 8518685530721180392, guid: af260d5959f34b047ad155ac6afc9127, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8996691042228580765, guid: af260d5959f34b047ad155ac6afc9127, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -586,7 +590,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 9210193681356138137, guid: d845f4250d30f3546bd151f033638ef3, type: 3}
+  m_Sprite: {fileID: 4044562391329377354, guid: 38449d66380f4d64b9cf94a74ab81860, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -749,8 +753,8 @@ MonoBehaviour:
     New Text New Text New Text New Text New Text New Text New Text New Text New Text
     New Text New Text New Text New Text '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8d5f5a4481aa4d048abadd05c8fb0ede, type: 2}
+  m_sharedMaterial: {fileID: -1454430643653762236, guid: 8d5f5a4481aa4d048abadd05c8fb0ede, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1000,16 +1004,15 @@ MonoBehaviour:
   charsPerSecond: 35
   lines:
   - characterSprite: {fileID: -1272011330606114383, guid: cce19cd95ddba074ba1dc761353bd6f6, type: 3}
-    text: Click to place points around any object or person to create a precise outline.
-      Perfect for removing backgrounds, isolating subjects, or creating custom shapes
-      with exact edges.
-  - characterSprite: {fileID: -8361884534984129530, guid: c69985c65c755344fb88702715add1aa, type: 3}
-    text: Automatically removes the background outside your selected polygon, creating
-      a PNG with transparent background. Perfect for product photos, logos, stickers,
-      and graphic design elements.
+    text: "\u6751\u6C11\t\u96BE\u4EE5\u7F6E\u4FE1\u2026\u6211\u89C9\u5F97\u6751\u91CC\u662F\u51FA\u4E86\u4E2A\u53D8\u6001\u602A\u76D7\u4E86\uFF01\r\n\t\u9152\u9986\u7684\u6728\u95E8\u5431\u5440\u54CD\u7740\uFF0C\u58C1\u7089\u91CC\u7684\u67F4\u706B\u567C\u556A\u4F5C\u54CD\uFF0C\u805A\u5728\u8FD9\u513F\u7684\u6751\u6C11\u4EEC\uFF0C\u624B\u91CC\u6525\u7740\u9676\u5236\u7684\u9EA6\u9152\u676F\uFF0C\u676F\u53E3\u6D6E\u7740\u4E00\u5C42\u7EC6\u5BC6\u7684\u6CE1\u6CAB\u3002\r"
+  - characterSprite: {fileID: -7231304139433089348, guid: 116ff08fdf84c4c4d8819c5a4e51f864, type: 3}
+    text: "\u5C0F\u8475\t\u6B38\uFF1F\u53D1\u751F\u4E86\u4EC0\u4E48\uFF1F\uFF1F"
   - characterSprite: {fileID: -1272011330606114383, guid: cce19cd95ddba074ba1dc761353bd6f6, type: 3}
-    text: Create triangles, pentagons, hexagons, stars, or any custom irregular shape.
-      Unlimited points allow you to trace even the most complex outlines with precision.
+    text: "\u6751\u6C11\t\u6211\u5BB6\u90A3\u4E9B\u94DC\u94C3\u6302\u4E86\u5FEB\u5341\u5E74\uFF0C\u98CE\u5439\u65E5\u6652\u7684\uFF0C\u8FDE\u5C0F\u5077\u90FD\u5ACC\u5360\u5730\u65B9\uFF0C\u600E\u4E48\u4E00\u665A\u4E0A\u7684\u529F\u592B\uFF0C\u8BF4\u6CA1\u5C31\u6CA1\u4E86\uFF1F\r"
+  - characterSprite: {fileID: -7231304139433089348, guid: 116ff08fdf84c4c4d8819c5a4e51f864, type: 3}
+    text: "\u6751\u6C11\t\u6211\u5BB6\u90A3\u4E9B\u94C3\u4E5F\u4E0D\u503C\u94B1\uFF0C\u5C31\u662F\u7528\u8584\u94DC\u7247\u53E0\u6210\u8776\u7FFC\u7684\u6A21\u6837\uFF0C\u7F20\u5728\u6D78\u8FC7\u677E\u8102\u7684\u9EBB\u7EF3\u4E0A\u505A\u7684\uFF0C\u5077\u8FD9\u4E1C\u897F\u5E72\u561B\u2026\r"
+  - characterSprite: {fileID: -1272011330606114383, guid: cce19cd95ddba074ba1dc761353bd6f6, type: 3}
+    text: "\u5C0F\u8475\t\u602A\u4E0D\u5F97\uFF0C\u4ECA\u5929\u8857\u4E0A\u51FA\u5947\u7684\u5B89\u9759\u5462\uFF01\u5F80\u5E74\u8FD9\u4F1A\u513F\uFF0C\u98CE\u7A7F\u5DF7\u5B50\uFF0C\u94C3\u97F3\u80FD\u98D8\u597D\u8FDC\u7684\uFF01\r"
   fadeBetweenLines: 1
   switchFadeOut: 0.12
   switchFadeIn: 0.12
@@ -1149,7 +1152,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1955448553306655712, guid: 8e7d9bbd42d51e34b9cb80c4daeaf550, type: 3}
+  m_Sprite: {fileID: 4044562391329377354, guid: 38449d66380f4d64b9cf94a74ab81860, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
